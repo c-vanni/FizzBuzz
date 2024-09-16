@@ -1,7 +1,8 @@
 public class Multiples {
     public static void main(String[] args) {
         //Prints how many multiples of 3 or 5 are in 1000
-        int i = 1; int total = 0;
+        int i = 1;
+        int total = 0;
         while (i <= 1000/3)
         {
             boolean m3under1000 = (i * 3) <= 1000;
